@@ -110,22 +110,22 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 100px;
-        padding-bottom: 20px;
+        padding-top: 75px;
+        padding-bottom: 5px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 4.00em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 }
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 12px 0;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -139,7 +139,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 7px 0;
+        padding: 0px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -212,7 +212,9 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-height: 400px;
+    overflow-y: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
